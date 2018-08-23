@@ -1,0 +1,164 @@
+﻿@media all  and (max-width : 1024px) {
+    .container {
+        width: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        box-sizing: border-box;
+    }
+
+}
+@media all  and (max-width : 768px) {
+    .container {
+        width: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        box-sizing: border-box;
+    }
+
+    .filter__items {
+        grid-template-columns: auto max-content max-content max-content;
+        grid-template-rows: repeat(2, auto);
+        grid-row-gap: 10px;
+    }
+
+    .filter-search__block {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+}
+@media all  and (max-width : 600px) {
+    .container {
+        width: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        box-sizing: border-box;
+    }
+
+    .header {
+        padding: 20px 0;
+        background-image: none;
+        background-color: #413e3a;
+    }
+
+    .header-container {
+        grid-template-columns: 35px auto;
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .filter-search__block {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .header__nav {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .nav__list {
+        flex-direction: row;
+    }
+
+    .nav__list__item {
+        margin: 10px 5px 0 5px;
+    }
+
+    .nav__list__item:first-child {
+        margin-left: 0;
+    }
+    .nav__list__item:last-child {
+        margin-right: 0;
+    }
+
+    .filter-container {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(2, auto) !important;
+    }
+
+    .filter__items {
+        flex-direction: column;
+    }
+
+    .filter-container {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .filter__button {
+        flex: 1 1 0;
+        padding: 10px;
+        margin: 0 10px;
+    }
+
+    .filter__items {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(5, auto);
+        grid-row-gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .filter-input,
+    .filter-select
+    {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .flight-time-old {
+        font-size: 14px;
+    }
+
+    .main {
+        padding: 10px 0 40px 0;
+    }
+    .flights-table__head {
+        display: none;
+    }
+
+    .flights-table__row {
+        grid-template-columns: 20% auto;
+        grid-template-rows: repeat(3, auto);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .flights-table__row:nth-child(2n) {
+        background: none;
+    }
+
+    .flights-table__cell:first-child {
+        padding-left: 0;
+    }
+    .flights-table__cell:last-child {
+        padding-right: 0;
+    }
+
+    .flight__time-info {
+        grid-row-start: auto;
+        grid-row-end: span 2;
+        font-size: 19px;
+        font-weight: bold;
+        align-items: flex-start;
+        line-height: 33px;
+    }
+    .flight__city {
+        font-size: 25px;
+    }
+    .flight__status {
+        justify-content: flex-start;
+    }
+    .flight__number-code {
+        font-size: 19px;
+        grid-template-columns: 15% auto;
+    }
+    .flight__terminal {
+        font-size: 19px;
+        justify-content: flex-start;
+    }
+    .flight:nth-child(2n) {
+        background: none;
+    }
+    .flights__head {
+        display: none;
+    }
+
+}
+
