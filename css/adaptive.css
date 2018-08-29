@@ -41,7 +41,7 @@
     }
 
     .header-container {
-        grid-template-columns: 35px auto;
+        grid-template-columns: min-content auto;
         grid-template-rows: repeat(2, auto);
     }
 
@@ -101,7 +101,7 @@
     .filter-select
     {
         font-size: 16px;
-        padding: 10px;
+        padding: 10px 60px 10px 10px;
     }
     .flight-time-old {
         font-size: 14px;
