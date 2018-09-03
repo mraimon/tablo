@@ -30,6 +30,17 @@ a {
     flex-direction: column;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 74rem;
+    margin: 0 auto;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
 .header {
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(85, 85, 85, 0.6)), to(rgba(85, 85, 85, 0.6))),
     url("../images/header-logo.jpg") center bottom;
